@@ -1,2 +1,2 @@
-# ubuntu-dind
+# dind
 Docker-inDocker
