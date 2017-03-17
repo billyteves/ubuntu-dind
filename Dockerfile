@@ -8,7 +8,10 @@ RUN apt-get update -qq && apt-get install -qqy \
     ca-certificates \
     curl \
     lxc \
-    iptables
+    iptables \
+    software-properties-common \
+    linux-image-extra-$(uname -r) \
+    linux-image-extra-virtual
     
 # Install Docker from Docker Inc. repositories.
 RUN curl -sSL https://get.docker.com/ | sh
