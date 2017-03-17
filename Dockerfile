@@ -10,7 +10,7 @@ RUN apt-get update -qq && apt-get install -qqy \
     lxc \
     iptables \
     software-properties-common \
-    linux-image-extra-$(uname -r) \
+    linux-image-virtual \
     linux-image-extra-virtual
     
 # Install Docker from Docker Inc. repositories.
